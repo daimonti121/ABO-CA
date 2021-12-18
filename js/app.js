@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
               "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["TRY AGAIN", "100% UP TO  200 CAD", "75 FS", "100 FS", "NO WIN", "50% UP TO 100 CAD", "20FS", "75% UP TO 100 CAD"];
+var prizes = ["TRY AGAIN", "100% UP TO  300 CAD", "75 FS", "150 FS", "NO WIN", "50% UP TO 225 CAD", "20FS", "75% UP TO 150 CAD"];
  
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
@@ -216,7 +216,7 @@ console.log("STAG -" + stag);
 
 
 $('.btn-2').click(function(){     
-    window.location.href = 'https://abocasino.biz/en-AU/users/sign_up' + stag;
+    window.location.href = 'https://abocasino.biz/ca/users/sign_up' + stag;
 })
 
 
